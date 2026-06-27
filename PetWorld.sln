@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AgentChat", "AgentChat", "{9B8D0858-A120-4D77-8873-EF137449CCAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AgentChat", "AgentChat", "{87EBB633-726A-4F38-B7DB-4666973C0B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AgentChat", "AgentChat", "{164D2ADE-4A43-4EE4-B020-F55C823F813C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentChat.Abstractions", "AgentChat\AgentChat.Abstractions\AgentChat.Abstractions.csproj", "{5A5AECBC-F692-4C3F-9F21-378C7A15570B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentChat.Maf", "AgentChat\AgentChat.Maf\AgentChat.Maf.csproj", "{773E073A-BD2C-4200-AC13-CB132FE06A1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A5AECBC-F692-4C3F-9F21-378C7A15570B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5AECBC-F692-4C3F-9F21-378C7A15570B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5AECBC-F692-4C3F-9F21-378C7A15570B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5AECBC-F692-4C3F-9F21-378C7A15570B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773E073A-BD2C-4200-AC13-CB132FE06A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773E073A-BD2C-4200-AC13-CB132FE06A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773E073A-BD2C-4200-AC13-CB132FE06A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773E073A-BD2C-4200-AC13-CB132FE06A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
